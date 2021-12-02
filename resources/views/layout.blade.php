@@ -29,7 +29,7 @@
                 <a class="nav-link" href="{{route('home')}}">Trang chủ</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Thêm sản phẩm</a>
+                <a class="nav-link" href="{{route('prodadd')}}">Thêm sản phẩm</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Danh mục sản phẩm</a>
