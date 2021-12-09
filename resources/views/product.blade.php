@@ -22,4 +22,5 @@
         @endforeach
     </div>
 </div>
+{{$product->links()}}
 @stop

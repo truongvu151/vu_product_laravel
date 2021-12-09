@@ -32,7 +32,7 @@
                 <a class="nav-link" href="{{route('prodadd')}}">Thêm sản phẩm</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Danh mục sản phẩm</a>
+                <a class="nav-link" href="{{route('prodlist')}}">Danh mục sản phẩm</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Ưu đãi</a>

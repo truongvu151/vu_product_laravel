@@ -23,3 +23,5 @@ Route::get('/', ['as' => 'home', 'uses' => 'ProductController@index']);
 Route::get('productdetail/{ProductId}', ['as' => 'prodetail', 'uses' => 'ProductController@getProductDetail']);
 Route::get('productadd', ['as' => 'prodadd', 'uses' => 'ProductController@addProduct']);
 Route::post('', ['as' => 'insert', 'uses' => 'ProductController@insertProduct']);
+Route::get('productlist', ['as' => 'prodlist', 'uses' => 'ProductController@ProductList']);
+Route::get('productlist/{ProductId}', ['as' => 'proddel', 'uses' => 'ProductController@delProduct']);
